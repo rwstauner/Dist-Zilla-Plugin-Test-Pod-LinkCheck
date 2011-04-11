@@ -1,6 +1,6 @@
 # vim: set ts=2 sts=2 sw=2 expandtab smarttab:
 package Dist::Zilla::Plugin::Test::Pod::LinkCheck;
-# ABSTRACT: undef
+# ABSTRACT: Add release tests for POD links
 
 use strict;
 use warnings;
@@ -14,7 +14,31 @@ no Moose;
 
 =head1 SYNOPSIS
 
+  # dist.ini
+  [Test::Pod::LinkCheck]
+
 =head1 DESCRIPTION
+
+This is an extension of L<Dist::Zilla::Plugin::InlineFiles>
+providing the following files:
+
+  xt/release/pod-linkcheck.t - a standard Test::Pod::LinkCheck test
+
+You can skip the test by setting
+C<$ENV{SKIP_POD_LINKCHECK}>.
+
+=head1 INSTALLING
+
+B<NOTE> You may need to update your L<CPANPLUS> index
+before L<Test::Pod::LinkCheck> will work (or in my case even install).
+Using the C<x> command at the C<cpanp> prompt did the trick for me.
+
+Read more in L<Test::Pod::LinkCheck/NOTES>.
+
+=head1 SEE ALSO
+
+=for :list
+* L<Test::Pod::LinkCheck>
 
 =cut
 
