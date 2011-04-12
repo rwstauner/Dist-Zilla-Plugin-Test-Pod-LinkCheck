@@ -1,4 +1,10 @@
+=for :stopwords dists
+
 =head1 Dist::Zilla::Plugin::Test::Pod::LinkCheck
+
+Add C<xt/release/pod-linkcheck.t>
+(a standard L<Test::Pod::LinkCheck> test)
+to your dists.
 
 See module POD for more information.
 
