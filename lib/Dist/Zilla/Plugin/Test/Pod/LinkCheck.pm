@@ -1,9 +1,10 @@
 # vim: set ts=2 sts=2 sw=2 expandtab smarttab:
+use strict;
+use warnings;
+
 package Dist::Zilla::Plugin::Test::Pod::LinkCheck;
 # ABSTRACT: Add release tests for POD links
 
-use strict;
-use warnings;
 use Moose;
 extends 'Dist::Zilla::Plugin::InlineFiles';
 
