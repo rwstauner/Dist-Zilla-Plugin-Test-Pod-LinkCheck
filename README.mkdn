@@ -1,0 +1,76 @@
+# NAME
+
+Dist::Zilla::Plugin::Test::Pod::LinkCheck - Add release tests for POD links
+
+# VERSION
+
+version 1.002
+
+# SYNOPSIS
+
+    # dist.ini
+    [Test::Pod::LinkCheck]
+
+# DESCRIPTION
+
+This is an extension of [Dist::Zilla::Plugin::InlineFiles](https://metacpan.org/pod/Dist::Zilla::Plugin::InlineFiles)
+providing the following files:
+
+    xt/release/pod-linkcheck.t - a standard Test::Pod::LinkCheck test
+
+You can skip the test by setting
+`$ENV{SKIP_POD_LINKCHECK}`.
+
+# INSTALLING
+
+**NOTE** You may need to update your [CPANPLUS](https://metacpan.org/pod/CPANPLUS) index
+before [Test::Pod::LinkCheck](https://metacpan.org/pod/Test::Pod::LinkCheck) will work (or in my case even install).
+Using the `x` command at the `cpanp` prompt did the trick for me.
+
+Read more in ["NOTES" in Test::Pod::LinkCheck](https://metacpan.org/pod/Test::Pod::LinkCheck#NOTES).
+
+# SEE ALSO
+
+- [Test::Pod::LinkCheck](https://metacpan.org/pod/Test::Pod::LinkCheck)
+
+# SUPPORT
+
+## Perldoc
+
+You can find documentation for this module with the perldoc command.
+
+    perldoc Dist::Zilla::Plugin::Test::Pod::LinkCheck
+
+## Websites
+
+The following websites have more information about this module, and may be of help to you. As always,
+in addition to those websites please use your favorite search engine to discover more resources.
+
+- MetaCPAN
+
+    A modern, open-source CPAN search engine, useful to view POD in HTML format.
+
+    [http://metacpan.org/release/Dist-Zilla-Plugin-Test-Pod-LinkCheck](http://metacpan.org/release/Dist-Zilla-Plugin-Test-Pod-LinkCheck)
+
+## Bugs / Feature Requests
+
+Please report any bugs or feature requests by email to `bug-dist-zilla-plugin-test-pod-linkcheck at rt.cpan.org`, or through
+the web interface at [http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Dist-Zilla-Plugin-Test-Pod-LinkCheck](http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Dist-Zilla-Plugin-Test-Pod-LinkCheck). You will be automatically notified of any
+progress on the request by the system.
+
+## Source Code
+
+[https://github.com/rwstauner/Dist-Zilla-Plugin-Test-Pod-LinkCheck](https://github.com/rwstauner/Dist-Zilla-Plugin-Test-Pod-LinkCheck)
+
+    git clone https://github.com/rwstauner/Dist-Zilla-Plugin-Test-Pod-LinkCheck.git
+
+# AUTHOR
+
+Randy Stauner <rwstauner@cpan.org>
+
+# COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2011 by Randy Stauner.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
