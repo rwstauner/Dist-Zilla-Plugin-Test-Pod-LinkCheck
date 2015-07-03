@@ -55,7 +55,7 @@ in addition to those websites please use your favorite search engine to discover
 ## Bugs / Feature Requests
 
 Please report any bugs or feature requests by email to `bug-dist-zilla-plugin-test-pod-linkcheck at rt.cpan.org`, or through
-the web interface at [http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Dist-Zilla-Plugin-Test-Pod-LinkCheck](http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Dist-Zilla-Plugin-Test-Pod-LinkCheck). You will be automatically notified of any
+the web interface at [https://rt.cpan.org/Public/Bug/Report.html?Queue=Dist-Zilla-Plugin-Test-Pod-LinkCheck](https://rt.cpan.org/Public/Bug/Report.html?Queue=Dist-Zilla-Plugin-Test-Pod-LinkCheck). You will be automatically notified of any
 progress on the request by the system.
 
 ## Source Code
@@ -67,6 +67,10 @@ progress on the request by the system.
 # AUTHOR
 
 Randy Stauner <rwstauner@cpan.org>
+
+# CONTRIBUTOR
+
+Dave Rolsky <autarch@urth.org>
 
 # COPYRIGHT AND LICENSE
 

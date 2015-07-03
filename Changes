@@ -2,6 +2,8 @@ Revision history for Dist-Zilla-Plugin-Test-Pod-LinkCheck
 
 {{$NEXT}}
 
+1.002     2015-07-03T03:56:57Z
+
   - Add Test::Pod::LinkCheck as a develop phase prereq on distros which use
     this plugin. GH #1 (Dave Rolsky)
 
