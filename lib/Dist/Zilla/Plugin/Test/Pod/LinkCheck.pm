@@ -3,7 +3,7 @@ use strict;
 use warnings;
 
 package Dist::Zilla::Plugin::Test::Pod::LinkCheck;
-# ABSTRACT: Add release tests for POD links
+# ABSTRACT: Add author tests for POD links
 
 use Moose;
 extends 'Dist::Zilla::Plugin::InlineFiles';
@@ -39,7 +39,7 @@ register_prereqs
 This is an extension of L<Dist::Zilla::Plugin::InlineFiles>
 providing the following files:
 
-  xt/release/pod-linkcheck.t - a standard Test::Pod::LinkCheck test
+  xt/author/pod-linkcheck.t - a standard Test::Pod::LinkCheck test
 
 You can skip the test by setting
 C<$ENV{SKIP_POD_LINKCHECK}>.
@@ -60,7 +60,7 @@ Read more in L<Test::Pod::LinkCheck/NOTES>.
 =cut
 
 __DATA__
-___[ xt/release/pod-linkcheck.t ]___
+___[ xt/author/pod-linkcheck.t ]___
 #!perl
 
 use strict;
