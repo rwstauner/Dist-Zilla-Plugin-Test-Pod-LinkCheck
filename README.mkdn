@@ -1,10 +1,14 @@
+[![Build Status](https://travis-ci.org/rwstauner/Dist-Zilla-Plugin-Test-Pod-LinkCheck.svg?branch=master)](https://travis-ci.org/rwstauner/Dist-Zilla-Plugin-Test-Pod-LinkCheck)
+[![Coverage Status](https://coveralls.io/repos/rwstauner/Dist-Zilla-Plugin-Test-Pod-LinkCheck/badge.svg?branch=master)](https://coveralls.io/r/rwstauner/Dist-Zilla-Plugin-Test-Pod-LinkCheck?branch=master)
+[![Kwalitee status](http://cpants.cpanauthors.org/dist/Dist-Zilla-Plugin-Test-Pod-LinkCheck.png)](http://cpants.charsbar.org/dist/overview/Dist-Zilla-Plugin-Test-Pod-LinkCheck)
+
 # NAME
 
-Dist::Zilla::Plugin::Test::Pod::LinkCheck - Add release tests for POD links
+Dist::Zilla::Plugin::Test::Pod::LinkCheck - Add author tests for POD links
 
 # VERSION
 
-version 1.002
+version 1.003
 
 # SYNOPSIS
 
@@ -16,7 +20,7 @@ version 1.002
 This is an extension of [Dist::Zilla::Plugin::InlineFiles](https://metacpan.org/pod/Dist::Zilla::Plugin::InlineFiles)
 providing the following files:
 
-    xt/release/pod-linkcheck.t - a standard Test::Pod::LinkCheck test
+    xt/author/pod-linkcheck.t - a standard Test::Pod::LinkCheck test
 
 You can skip the test by setting
 `$ENV{SKIP_POD_LINKCHECK}`.
