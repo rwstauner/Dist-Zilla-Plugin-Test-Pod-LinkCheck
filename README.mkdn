@@ -8,7 +8,7 @@ Dist::Zilla::Plugin::Test::Pod::LinkCheck - Add author tests for POD links
 
 # VERSION
 
-version 1.003
+version 1.004
 
 # SYNOPSIS
 

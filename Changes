@@ -2,6 +2,10 @@ Revision history for Dist-Zilla-Plugin-Test-Pod-LinkCheck
 
 {{$NEXT}}
 
+1.004     2017-09-06T14:16:12Z
+
+  - Update meta files.  No code changes.
+
 1.003     2017-01-09T01:05:37Z
 
   - Make this an author test rather than a release test. It should pass on all
